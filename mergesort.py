@@ -50,3 +50,5 @@ array = [line.replace("\n", "") for line in readlines]
 
 value = mergesort(array)
 print(value)
+
+#This code is giving TypeError: object of type 'int' has no len(), line 20, "n_right = len(right)"
